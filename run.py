@@ -1,4 +1,6 @@
 a = 10330
-print(a)
+b = 20033
+c = a+b
+print(c)
 massage = "Hello world From Python"
 print(massage)
