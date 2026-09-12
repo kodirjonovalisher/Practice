@@ -28,3 +28,21 @@ print(f"the result (4): {result}")
 
 result = course.replace("Python", "Nodjs")
 print(f"the result (5): {result}")
+
+print("=== boolen ===")
+# function > type() input() bool() int() str()
+y = input("Give your value for y: ")
+print("y:", y)
+
+result = y.isnumeric()
+print(f"the input value is numeric: {result}")
+
+# TRUTHY AND FALSY Values
+# TRUTHY : True 100 -100 "MIT"
+# FALSY: False 0 "" None
+
+test_falsy = "" or False or None or 0
+print("Test falsy:", bool(test_falsy))
+
+test_truthy = "Mit"
+print("Test falsy:", bool(test_truthy))
